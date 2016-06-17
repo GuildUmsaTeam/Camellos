@@ -1,0 +1,12 @@
+"clonar" el proyecto
+1. Obtener el link del repositorio
+2. Clone / New (en Source Tree)
+
+
+
+Preparar el proyecto para trabajar con git
+
+1. Edit -> Project Settings -> Editor
+2. Version Control => Visible Meta Files
+3. Asset Serialization => Force Text
+
