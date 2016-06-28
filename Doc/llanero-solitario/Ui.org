@@ -1,0 +1,14 @@
+* UI
+** Art
+*** Submit button
+**** Time: 0.25hr
+**** Priority: 5
+*** Input box
+**** Time: 0.25hr
+**** Priority: 5
+** Unity implementation
+*** Time: 0.5hr
+*** Priority: 1
+
+(+ 0.25 0.25 0.5)
+# 1hr on the UI

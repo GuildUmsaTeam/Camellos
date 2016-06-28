@@ -1,0 +1,31 @@
+* Camels
+** Art
+*** Priority: -1
+*** Walk
+**** Time: 1hr 
+**** Priority: 0
+*** Stand
+**** Time: 1hr 
+**** Priority: 0
+*** Eat
+**** Time: 0.5hr 
+**** Priority: 1
+*** Abducted
+**** Time: 2hr 
+**** Priority: -5
+** Sound effect: One for each art drawing
+*** Priority: 5
+*** Time: 2hr (all)
+** Code
+*** Walk randomly
+**** Time: 5hr
+**** Priority: 0
+*** Be abducted
+**** Time: 2hr
+**** Priority: 0
+*** Behave randomly
+**** Time: 1hr
+**** Priority: 2
+
+(+ 1 1 0.5 2 2 5 2 1) 
+# 14.5 hr in the camel

@@ -1,0 +1,14 @@
+* Rapture light
+** Art
+*** Priority: 0
+*** Time: 2hr
+** Sound effect
+*** Priority: 5
+*** Time: 2hr
+** Code
+*** Cast in command
+**** Priority: 0
+**** Time: 1hr
+
+(+ 2 2 1)
+# 5 hr on the rapture light
