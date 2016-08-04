@@ -3,6 +3,15 @@
 2. Clone / New (en Source Tree)
 
 
+subir cambios:
+0. Pull
+1. commit, marcando todos los archivos
+   1.1. Unstaged files debe estar vacío.
+   1.2. Staged files debe tener archivos.
+   1.3 hacer un mensaje que describa los cambios en la caja de abajo.
+2. push   
+
+
 
 Preparar el proyecto para trabajar con git
 
