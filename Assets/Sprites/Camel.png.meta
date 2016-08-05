@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 21289aed00b503945a567d0392b4091d
-timeCreated: 1470316929
+timeCreated: 1470405208
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Camel_0
+    21300002: Camel_1
+    21300004: Camel_2
+    21300006: Camel_3
+    21300008: Camel_4
+    21300010: Camel_5
+    21300012: Camel_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +45,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +56,157 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Camel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 30}
+        - {x: -3, y: 21}
+        - {x: -2, y: 53}
+        - {x: -6, y: 57}
+        - {x: -35, y: 57}
+        - {x: -47, y: 47}
+        - {x: -47, y: -62}
+        - {x: -41, y: -63}
+        - {x: 43, y: -63}
+        - {x: 50, y: -41}
+        - {x: 50, y: -7}
+        - {x: 25, y: 36}
+    - name: Camel_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 57}
+        - {x: -50, y: 57}
+        - {x: -50, y: -63}
+        - {x: 48, y: -63}
+        - {x: 55, y: -38}
+        - {x: 55, y: 6}
+        - {x: 26, y: 47}
+    - name: Camel_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -21}
+        - {x: 38, y: -28}
+        - {x: 47, y: -30}
+        - {x: 50, y: -27}
+        - {x: 50, y: -7}
+        - {x: 25, y: 36}
+        - {x: 6, y: 30}
+        - {x: -3, y: 21}
+        - {x: -2, y: 53}
+        - {x: -6, y: 57}
+        - {x: -35, y: 57}
+        - {x: -47, y: 47}
+        - {x: -47, y: -17}
+        - {x: -37, y: -57}
+        - {x: -30, y: -63}
+        - {x: 41, y: -63}
+        - {x: 50, y: -52}
+        - {x: 50, y: -51}
+        - {x: 34, y: -25}
+    - name: Camel_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 57}
+        - {x: -50, y: -29}
+        - {x: -45, y: -61}
+        - {x: -34, y: -63}
+        - {x: 55, y: -63}
+        - {x: 55, y: 57}
+    - name: Camel_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 62}
+        - {x: -35, y: 19}
+        - {x: -35, y: -62}
+        - {x: -32, y: -63}
+        - {x: 47, y: -63}
+        - {x: 47, y: 12}
+        - {x: 8, y: 62}
+    - name: Camel_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 41}
+        - {x: -19, y: 57}
+        - {x: -42, y: 57}
+        - {x: -45, y: 56}
+        - {x: -46, y: 55}
+        - {x: -46, y: -61}
+        - {x: -37, y: -63}
+        - {x: 50, y: -63}
+        - {x: 50, y: -1}
+    - name: Camel_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 27}
+        - {x: 15, y: 33}
+        - {x: -4, y: 22}
+        - {x: -12, y: 56}
+        - {x: -15, y: 59}
+        - {x: -35, y: 59}
+        - {x: -51, y: 52}
+        - {x: -51, y: -32}
+        - {x: -44, y: -59}
+        - {x: -32, y: -63}
+        - {x: 45, y: -63}
+        - {x: 50, y: -62}
+        - {x: 50, y: -5}
     outline: []
   spritePackingTag: 
   userData: 

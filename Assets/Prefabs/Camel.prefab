@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 402920}
   - 114: {fileID: 11462264}
   - 114: {fileID: 11422682}
+  - 114: {fileID: 11444664}
   m_Layer: 0
   m_Name: Camel
   m_TagString: Untagged
@@ -77,6 +78,18 @@ MonoBehaviour:
   MinWaitingTime: 0.5
   MaxWaitingTime: 1
   TargetSpot: {x: 0, y: 0}
+--- !u!114 &11444664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e081947096699354594b7c80d9be4761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbductionTime: 2
 --- !u!114 &11462264
 MonoBehaviour:
   m_ObjectHideFlags: 1
