@@ -5,6 +5,9 @@ public class RandomMovement : MonoBehaviour {
     public const int IDLE = 0;
     public const int GOING = 1;
 
+    public bool RandomSpeed = false;
+    public float MaxSpeed = 0.3f;
+    public float MinSpeed = 1;
     public float Speed;
 
     public Vector2 MinSpot;
@@ -16,10 +19,16 @@ public class RandomMovement : MonoBehaviour {
     public Vector2 TargetSpot;
 
     private int _currentState;
+    private CamelController _controller;
 
     void Start () {
         RandomizeTargetSpot();
+
         _currentState = GOING;
+        _controller = GetComponent<CamelController>();
+        if (RandomSpeed) {
+            Speed = Random.Range(MaxSpeed, MinSpeed);
+        }
     }
 
     void Update () {
@@ -27,12 +36,15 @@ public class RandomMovement : MonoBehaviour {
             if (_currentState != IDLE) {
                 StartCoroutine("GetThere"); // must be executed only once!
             }
+            _controller.IsWalking = false;
         } else {
+            _controller.LookingLeft = TargetSpot.x - transform.position.x < 0;
+            _controller.IsWalking = true;
             GoToTargetSpot();
         }
     }
 
-    public void RandomizeTargetSpot () {
+    public void RandomizeTargetSpot () {        
         TargetSpot = new Vector2(Random.Range(MinSpot.x, MaxSpot.x),
                                  Random.Range(MinSpot.y, MaxSpot.y));
     }

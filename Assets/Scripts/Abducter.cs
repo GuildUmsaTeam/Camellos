@@ -1,9 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
 public class Abducter : MonoBehaviour {
     private List<GameObject> _camels;
+    public Text Quantity;
+    public GameObject CamelPrototype;
 
     public List<GameObject> Camels {
         get {
@@ -17,18 +22,38 @@ public class Abducter : MonoBehaviour {
 
     void Update () {
 	if (Input.GetKeyDown(KeyCode.A)) {
-            Abduct(Random.Range(1, Camels.Count));
+            Refresh();
         }
     }
 
-    public void Abduct (int quantity) {
-        int[] toAbduct = new int[quantity];
-
-        for (int i=0; i<quantity; i++) {
-            toAbduct[i] = Random.Range(0, Camels.Count - 1 - i);
-            // Camels[i].transform.localScale = new Vector3(1,-1,1);
-            Camels[i].GetComponent<Abducted>().GetAbducted();
+    public void Refresh () {
+        int b = Balance();
+        if (b < 0) {
+            Abduct(-b);
+        } else {
+            Drop(b);
         }
+    } 
 
+    public void Abduct (int quantity) {
+        for (int i=0; i<quantity; i++) {
+            int removeIndex = UnityEngine.Random.Range(0,Camels.Count);
+            Camels[removeIndex].GetComponent<Abducted>().GetAbducted();
+            Camels.RemoveAt(removeIndex);
+        }
+    }
+
+    public void Drop (int quantity) {
+        for (int i=0; i<quantity; i++) {
+            GameObject camel = Instantiate(CamelPrototype);
+            camel.GetComponent<RandomMovement>().RandomizeTargetSpot();
+            camel.transform.position = transform.position;
+            camel.GetComponent<Abducted>().GetDropped();
+        }
+    }
+
+    public int Balance () {
+        int quantity = Int32.TryParse(Quantity.text, out quantity) ? quantity : 0;
+        return quantity - Camels.Count;
     }
 }

@@ -1,0 +1,12 @@
+using UnityEngine;
+using System.Collections;
+
+public class CamelController : MonoBehaviour {
+    void Start () {
+        
+    }
+    
+    void Update () {
+	
+    }
+}
