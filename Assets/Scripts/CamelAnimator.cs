@@ -3,6 +3,11 @@ using System.Collections;
 
 public class CamelAnimator : MonoBehaviour {
     public GameObject Model;
+    public Animator TheAnimator {
+        get {
+            return _animator;
+        }
+    }
 
     private Animator _animator;
     private CamelController _controller;
@@ -14,6 +19,7 @@ public class CamelAnimator : MonoBehaviour {
     }
 
     void Update () {
+        _animator.SetBool("IsFlying", _controller.IsFlying());
         _animator.SetBool("IsWalking", _controller.IsWalking);
         if (_controller.IsWalking) {
             _randomCounter = 0;

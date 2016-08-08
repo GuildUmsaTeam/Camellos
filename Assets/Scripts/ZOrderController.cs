@@ -18,7 +18,8 @@ public class ZOrderController : MonoBehaviour {
 
     private void _Sort () {
         Components.Sort(delegate(GameObject a, GameObject b) {
-                return (int) Mathf.Sign(b.transform.position.y - a.transform.position.y);
+                return (int) Mathf.Sign(b.GetComponent<ZOrder>().GetZOrderPosition().y -
+                                        a.GetComponent<ZOrder>().GetZOrderPosition().y);
             });
     }
 

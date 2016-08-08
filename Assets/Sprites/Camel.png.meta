@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 21289aed00b503945a567d0392b4091d
-timeCreated: 1470524836
+timeCreated: 1470618457
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -14,6 +14,10 @@ TextureImporter:
     21300014: Camel_7
     21300016: Camel_8
     21300018: Camel_9
+    21300020: Camel_10
+    21300022: Camel_11
+    21300024: Camel_12
+    21300026: Camel_13
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -258,6 +262,104 @@ TextureImporter:
         - {x: 55, y: -61}
         - {x: 55, y: 17}
         - {x: 22, y: 59}
+    - name: Camel_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 61}
+        - {x: -38, y: 61}
+        - {x: -45, y: 58}
+        - {x: -54, y: 41}
+        - {x: -54, y: -5}
+        - {x: -20, y: -62}
+        - {x: -4, y: -62}
+        - {x: 1, y: -55}
+        - {x: 3, y: -48}
+        - {x: 14, y: -57}
+        - {x: 21, y: -62}
+        - {x: 33, y: -62}
+        - {x: 39, y: -61}
+        - {x: 49, y: -42}
+        - {x: 49, y: -4}
+        - {x: 36, y: 39}
+    - name: Camel_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 57}
+        - {x: -51, y: 57}
+        - {x: -53, y: 49}
+        - {x: -53, y: 1}
+        - {x: -9, y: -60}
+        - {x: 41, y: -60}
+        - {x: 48, y: -46}
+        - {x: 48, y: 40}
+    - name: Camel_12
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 57}
+        - {x: -49, y: 57}
+        - {x: -53, y: 49}
+        - {x: -53, y: -19}
+        - {x: -29, y: -56}
+        - {x: 0, y: -56}
+        - {x: 7, y: -53}
+        - {x: 11, y: -46}
+        - {x: 11, y: -40}
+        - {x: 17, y: -56}
+        - {x: 46, y: -56}
+        - {x: 48, y: -54}
+        - {x: 48, y: 0}
+        - {x: 39, y: 31}
+    - name: Camel_13
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 0
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 39}
+        - {x: 13, y: 58}
+        - {x: -50, y: 58}
+        - {x: -54, y: 51}
+        - {x: -54, y: 5}
+        - {x: -19, y: -48}
+        - {x: -9, y: -53}
+        - {x: 9, y: -54}
+        - {x: 15, y: -51}
+        - {x: 7, y: -22}
+        - {x: 16, y: -49}
+        - {x: 18, y: -54}
+        - {x: 25, y: -55}
+        - {x: 43, y: -55}
+        - {x: 47, y: -53}
+        - {x: 49, y: -43}
     outline: []
   spritePackingTag: 
   userData: 

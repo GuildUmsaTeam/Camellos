@@ -9,12 +9,19 @@ public class CamelController : MonoBehaviour {
             return GetComponent<RandomMovement>().TargetSpot;
         }
     }
+    public SpriteRenderer Renderer;
+
+    private Abducted _abducted;
 
     void Start () {
-        
+        _abducted = GetComponent<Abducted>();
     }
     
     void Update () {
 	
+    }
+
+    public bool IsFlying () {
+        return _abducted.IsFlying();
     }
 }
